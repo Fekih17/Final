@@ -1,0 +1,44 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+html {
+    min-height: 100%;
+}
+.nav-opts {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 3px 12px rgb(245, 245, 245);
+    padding: 1.1%;
+}
+a {
+    text-decoration: none;
+    color: rgb(155, 104, 37);
+    justify-content: space-around;
+}
+
+button {
+    display: flex;
+    cursor: pointer;
+    margin: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(155, 104, 37) 
+}
+
+.intro-text{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(155, 104, 37);
+}
+.intro-text-exp {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(155, 104, 37);
+}
+.foot {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30%;
+    position: sticky;
+}
